@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <nav>
+    <nav class="bg-pink-500">
       <ul>
-        <li class="bg-pink-300">home</li>
+        <li class="text-xl">home</li>
         <li>products</li>
         <li>special offers</li>
         <li>about</li>
@@ -26,4 +26,3 @@ export default {
 </script>
 
 <style src="./assets/tailwind.css" />
-
