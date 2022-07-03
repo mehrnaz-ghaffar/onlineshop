@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <nav class="bg-pink-500">
+    <nav class="bg-pink-300">
       <ul>
         <li class="text-xl">home</li>
         <li>products</li>
