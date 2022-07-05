@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <nav class="bg-pink-300">
-      <ul>
+      <ul class="flex justify-around">
         <li class="text-xl">home</li>
         <li>products</li>
         <li>special offers</li>
