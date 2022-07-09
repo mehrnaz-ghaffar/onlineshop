@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <nav class="bg-pink-300">
+    <!-- Navbar -->
+    <nav class="relative container bg-pink-300">
       <ul class="flex justify-around">
         <li class="text-xl">home</li>
         <li>products</li>
@@ -14,13 +15,12 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import './assets/tailwind.css'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    
   }
 }
 </script>
