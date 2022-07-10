@@ -29,10 +29,12 @@
 
 <script>
 import './assets/tailwind.css'
+import './components/slider.vue'
 
 export default {
   name: 'App',
   components: {
+    slider ,
     
   }
 }
