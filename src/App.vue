@@ -6,7 +6,7 @@
       <div class="flex items-center justify-between">
         <!-- Logo -->
         <div class="pt-2">
-          <img src="./img/logo.svg" alt="">
+          <img src="./assets/img/logo.svg" alt="">
         </div>
         <!-- Menue items -->
         <div class="hidden md:flex space-x-12">
@@ -29,14 +29,18 @@
 
 <script>
 import './assets/tailwind.css'
-import './components/slider.vue'
+import Slider from './components/Slider.vue'
 
 export default {
   name: 'App',
   components: {
-    slider ,
-    
-  }
+    Slider ,
+  },
+  // data(){
+  //   return
+  //     slides : ["./img/pexels-andrea-piacquadio-720606.jpg",
+  //       "./img/pexels-andrea-piacquadio-720606.jpg"]
+  // }
 }
 </script>
 
