@@ -15,32 +15,23 @@
           <a href="#" class="hover:text-brightRed">special offers</a>
           <a href="#" class="hover:text-brightRed">about</a>
         </div>
-        
 
       </div>
-
-
-
-      
     </nav>
-    
   </div>
 </template>
 
 <script>
 import './assets/tailwind.css'
-import Slider from './components/Slider.vue'
+import Slider from './components/Slider'
+
 
 export default {
   name: 'App',
   components: {
-    Slider ,
+    Slider
   },
-  // data(){
-  //   return
-  //     slides : ["./img/pexels-andrea-piacquadio-720606.jpg",
-  //       "./img/pexels-andrea-piacquadio-720606.jpg"]
-  // }
+  
 }
 </script>
 
