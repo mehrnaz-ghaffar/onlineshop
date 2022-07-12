@@ -10,7 +10,7 @@
 
 <script>
 export default {
-    name: Slider,
+    
     props: ["slides"],
     data(){
         return{
