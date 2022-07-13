@@ -16,6 +16,7 @@ export default {
             images:[
                 require("../assets/img/pexels-andrea-piacquadio-720606.jpg"),
                 require("../assets/img/pexels-andrea-piacquadio-720606.jpg"),
+                require("../assets/img/pexels-daniel-adesina-833052.jpg")
             ]
         }
     },
