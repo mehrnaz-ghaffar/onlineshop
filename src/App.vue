@@ -15,9 +15,9 @@
           <a href="#" class="hover:text-brightRed">special offers</a>
           <a href="#" class="hover:text-brightRed">about</a>
         </div>
-        <Slider />
       </div>
     </nav>
+    <Slider />
   </div>
 </template>
 
