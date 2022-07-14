@@ -1,18 +1,21 @@
 <template>
     <div class="carousel flex justify-center">
         <div class="carouselInner relative w-9/12 h-400 overflow-hidden">
-            <div  class="carouselItem absolute inset-0" 
+            <transition 
+                name="slideIn"
                 v-for="(image , imageIndex) in images" 
                 :key="imageIndex"
                 v-show="currentSlide===imageIndex"
-
-            > 
-                <img 
-                    :src="image"   
-                    :alt="image" 
-                    :key="imageIndex"
-                />
-            </div>
+            >
+                <div  class="carouselItem absolute inset-0"> 
+                    <img 
+                        :src="image"   
+                        :alt="image" 
+                        :key="imageIndex"
+                    />
+                </div>
+            
+            </transition>  
         </div>
     </div>
 </template>
@@ -24,6 +27,7 @@ export default {
         return{
             images:[
                 require("../assets/img/pexels-andrea-piacquadio-720606.jpg"),
+                require("../assets/img/pexels-pixabay-247298.jpg"),
                 require("../assets/img/pexels-andrea-piacquadio-720606.jpg"),
                 require("../assets/img/pexels-daniel-adesina-833052.jpg")
             ],
@@ -48,3 +52,20 @@ export default {
     
 }
 </script> 
+
+<style scoped>
+.slideIn-enter-active,
+.slideIn-leave-active{
+    transition: all 1s ease-in-out;
+}
+
+.slideIn-enter-from{
+    transform: translateX(-100%);
+}
+
+.slideIn-leave-to{
+    transform: translateX(100%);
+}
+
+
+</style>
